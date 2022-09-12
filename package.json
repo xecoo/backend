@@ -5,7 +5,8 @@
   "description": "Projeto de backend para alimentar o frontend e mobile",
   "main": "src/backend.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/xecoo/backend#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
   }
 }
