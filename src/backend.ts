@@ -34,5 +34,4 @@ app.get('/games/:id/discord', (req, res) => {
     ])
 })
 
-
 app.listen(3333)
